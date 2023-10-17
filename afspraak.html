@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Tandartspraktijk KiesKeurig</title>
+    </head>
+    <body>
+        <h1>Tandartsafspraak</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis venenatis pellentesque risus, ut viverra nisl interdum et. Sed id nulla sed elit feugiat aliquet eu eu sapien. Pellentesque ut commodo diam, sit amet ullamcorper libero. Curabitur vitae lectus lectus. Sed ultricies congue porta. Sed gravida porttitor felis, varius porta justo tincidunt id. In hac habitasse platea dictumst. Vivamus auctor maximus dolor et vehicula. Praesent vel nibh auctor, consectetur justo vitae, fermentum enim. Donec feugiat auctor enim, vitae pharetra enim rhoncus et.</p>
+            <img src="teeth pic 4.jpeg" width="300" alt="wind-up chattering teeth toy with eyes">
+            <img src="teeth pic 2.webp" width="300" alt="wind-up chattering teeth toy with eyes and feet">
+            <img src="teeth pic 3.jpeg" width="300" alt="wind-up chattering teeth toy">
+        <form action="https://formspree.io/f/xzblyyrp" method="post">
+            <fieldset>
+                <legend>Persoonlijke gegevens</legend>
+                    <label for="naam">Naam</label>
+                    <input id="naam" type="text" name="naam"><br><br>
+                    <label for="email">E-mailadres</label>
+                    <input id="email" type="email" name="email"><br><br>
+                    <label for="tel">Telefoonnummer</label>
+                    <input id="tel" type="tel" name="tel"><br>                 
+            </fieldset>
+            <fieldset>
+                <legend>Beschrijving van de klachten</legend>
+                <input type="checkbox" name="klacht" value="kiespijn">Kiespijn
+                <input type="checkbox" name="klacht" value="gaatje">Gaatje
+                <input type="checkbox" name="klacht" value="geur">Vieze geur<br><br>
+                <em>Indien nodig kunnen hier foto's worden geüpload</em>
+                <input type="file" name="file" accept="image/*" multiple="3">
+            </fieldset>
+            <fieldset>
+                <legend>Toelichting van de klachten</legend>
+                <textarea name="toelichting" maxlength="1500" placeholder="Uw bericht"></textarea><br><br>
+                <label for="date">De symptomen begonnen op:</label>
+                <input id="date" type="date" name="date">
+            </fieldset>
+            <input type="submit" value="Verzend"><br><br>
+        </form>
+    </body>
+</html>
